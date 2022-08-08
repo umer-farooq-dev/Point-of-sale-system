@@ -1,0 +1,13 @@
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.exe.config
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.exe
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.pdb
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Properties.Resources.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.csproj.GenerateResource.cache
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.csproj.CoreCompileInputs.cache
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.pdb
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Dashboard.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Bunifu_UI_v1.5.3.dll
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.csproj.CopyComplete
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Login.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.csprojAssemblyReference.cache

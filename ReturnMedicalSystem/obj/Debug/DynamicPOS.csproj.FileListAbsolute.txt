@@ -1,0 +1,315 @@
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.exe.config
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.exe
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.pdb
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Telerik.WinControls.dll
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Telerik.WinControls.UI.dll
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\TelerikCommon.dll
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Telerik.WinControls.xml
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Telerik.WinControls.UI.xml
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Product.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Login.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Dashboard.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Properties.Resources.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.GenerateResource.cache
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe.licenses
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.CoreCompileInputs.cache
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.CopyComplete
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.pdb
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.ProductsForm.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.CustomerForm.resources
+F:\Return Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csprojAssemblyReference.cache
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.exe.config
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.exe
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.pdb
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ValueTuple.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\netstandard.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.AppContext.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Collections.Concurrent.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Collections.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Collections.NonGeneric.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Collections.Specialized.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ComponentModel.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ComponentModel.Primitives.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Console.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Data.Common.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Contracts.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Debug.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Process.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Tools.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Tracing.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Drawing.Primitives.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Dynamic.Runtime.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Globalization.Calendars.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Globalization.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Globalization.Extensions.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.Compression.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.FileSystem.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.IsolatedStorage.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.Pipes.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Linq.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Linq.Expressions.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Linq.Parallel.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Linq.Queryable.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Http.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.NameResolution.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.NetworkInformation.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Ping.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Primitives.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Requests.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Security.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Sockets.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.WebSockets.Client.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.WebSockets.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ObjectModel.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Reflection.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Reflection.Extensions.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Reflection.Primitives.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Resources.Reader.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Resources.ResourceManager.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Resources.Writer.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Extensions.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Handles.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.InteropServices.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Numerics.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Claims.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Principal.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.SecureString.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Text.Encoding.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Text.RegularExpressions.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Overlapped.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Tasks.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Thread.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.ThreadPool.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Timer.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.ReaderWriter.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XDocument.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XmlDocument.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XmlSerializer.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XPath.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Microsoft.Data.Sqlite.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\SQLitePCLRaw.core.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\SQLitePCLRaw.nativelibrary.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Buffers.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Memory.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Numerics.Vectors.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Microsoft.Data.Sqlite.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Buffers.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Memory.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Numerics.Vectors.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe.config
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.CustomerForm.resources
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Product.resources
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.ProductsForm.resources
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Login.resources
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Dashboard.resources
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Properties.Resources.resources
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.GenerateResource.cache
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe.licenses
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.CoreCompileInputs.cache
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.CopyComplete
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.pdb
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Bills.resources
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.DocumentObjectModel-gdi.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.Rendering-gdi.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.RtfRendering-gdi.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\PdfSharp-gdi.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\PdfSharp.Charting-gdi.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.DocumentObjectModel-gdi.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.Rendering-gdi.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.RtfRendering-gdi.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\PdfSharp-gdi.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\PdfSharp.Charting-gdi.xml
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\MigraDoc.DocumentObjectModel-gdi.resources.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\MigraDoc.Rendering-gdi.resources.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\MigraDoc.RtfRendering-gdi.resources.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\PdfSharp-gdi.resources.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\PdfSharp.Charting-gdi.resources.dll
+F:\Return Projects\Git Projects\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csprojAssemblyReference.cache
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.exe.config
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.exe
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\ReturnMedicalSystem.pdb
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Microsoft.Win32.Primitives.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\netstandard.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.AppContext.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Collections.Concurrent.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Collections.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Collections.NonGeneric.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Collections.Specialized.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ComponentModel.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ComponentModel.Primitives.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ComponentModel.TypeConverter.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Console.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Data.Common.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Contracts.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Debug.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Process.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.StackTrace.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Tools.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.TraceSource.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Diagnostics.Tracing.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Drawing.Primitives.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Dynamic.Runtime.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Globalization.Calendars.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Globalization.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Globalization.Extensions.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.Compression.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.Compression.ZipFile.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.FileSystem.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.FileSystem.Primitives.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.FileSystem.Watcher.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.IsolatedStorage.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.MemoryMappedFiles.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.Pipes.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Linq.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Linq.Expressions.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Linq.Parallel.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Linq.Queryable.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Http.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.NameResolution.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.NetworkInformation.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Ping.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Primitives.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Requests.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Security.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.Sockets.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.WebHeaderCollection.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.WebSockets.Client.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Net.WebSockets.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ObjectModel.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Reflection.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Reflection.Extensions.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Reflection.Primitives.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Resources.Reader.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Resources.ResourceManager.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Resources.Writer.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Extensions.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Handles.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.InteropServices.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Numerics.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Serialization.Formatters.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Serialization.Json.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Serialization.Primitives.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.Serialization.Xml.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Claims.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.Algorithms.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.Csp.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.Encoding.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.Primitives.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.Principal.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Security.SecureString.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Text.Encoding.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Text.Encoding.Extensions.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Text.RegularExpressions.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Overlapped.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Tasks.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Tasks.Parallel.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Thread.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.ThreadPool.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Threading.Timer.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.ValueTuple.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.ReaderWriter.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XDocument.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XmlDocument.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XmlSerializer.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XPath.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Xml.XPath.XDocument.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Microsoft.Data.Sqlite.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.DocumentObjectModel-gdi.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.Rendering-gdi.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.RtfRendering-gdi.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\PdfSharp-gdi.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\PdfSharp.Charting-gdi.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\SQLitePCLRaw.core.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\SQLitePCLRaw.nativelibrary.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Buffers.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Memory.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Numerics.Vectors.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Microsoft.Data.Sqlite.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.DocumentObjectModel-gdi.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.Rendering-gdi.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\MigraDoc.RtfRendering-gdi.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\PdfSharp-gdi.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\PdfSharp.Charting-gdi.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Buffers.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Memory.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Numerics.Vectors.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Telerik.WinControls.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\Telerik.WinControls.UI.xml
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\MigraDoc.DocumentObjectModel-gdi.resources.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\MigraDoc.Rendering-gdi.resources.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\MigraDoc.RtfRendering-gdi.resources.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\PdfSharp-gdi.resources.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\bin\Debug\de\PdfSharp.Charting-gdi.resources.dll
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.AssemblyReference.cache
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe.config
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Bills.resources
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.CustomerForm.resources
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Product.resources
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.ProductsForm.resources
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Login.resources
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Dashboard.resources
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Properties.Resources.resources
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.GenerateResource.cache
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe.licenses
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.CoreCompileInputs.cache
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.CopyComplete
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.pdb
