@@ -313,3 +313,5 @@ F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\Dyn
 F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\DynamicPOS.csproj.CopyComplete
 F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.exe
 F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.pdb
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Suppllers.resources
+F:\Git\ReturnMedicalSystem\ReturnMedicalSystem\ReturnMedicalSystem\obj\Debug\ReturnMedicalSystem.Forms.Customer.resources

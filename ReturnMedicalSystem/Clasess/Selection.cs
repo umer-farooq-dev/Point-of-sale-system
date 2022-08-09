@@ -50,5 +50,78 @@ namespace ReturnMedicalSystem.Clasess
 				throw;
 			}
         }
-    }
+
+
+		public void showSupplier(DataGridView gv, DataGridViewColumn DGv_Id, DataGridViewColumn DGv_name, DataGridViewColumn DGv_PH, DataGridViewColumn DGv_ADD, DataGridViewColumn DGv_RE, string data = null)
+		{
+			//product select in all requierd Filed opration
+			try
+			{
+				SqlCommand cmd;
+				if (data == null)
+				{
+					cmd = new SqlCommand("stp_selectSupplier", DB.con);
+				}
+				else
+				{
+					cmd = new SqlCommand("stp_searchProduct", DB.con);
+					cmd.Parameters.AddWithValue("@data", data);
+				}
+
+				cmd.CommandType = CommandType.StoredProcedure;
+				SqlDataAdapter da = new SqlDataAdapter(cmd);
+				DataTable dt = new DataTable();
+				da.Fill(dt);
+				DGv_Id.DataPropertyName = dt.Columns["ID"].ToString();
+				DGv_name.DataPropertyName = dt.Columns["SupplierName"].ToString();
+				DGv_PH.DataPropertyName = dt.Columns["Phone"].ToString();
+				DGv_ADD.DataPropertyName = dt.Columns["Address"].ToString();
+				DGv_RE.DataPropertyName = dt.Columns["Remarks"].ToString();
+				gv.DataSource = dt;
+
+
+			}
+			catch (Exception)
+			{
+
+				throw;
+			}
+		}
+
+
+		public void showCustomer(DataGridView gv, DataGridViewColumn DGv_Id, DataGridViewColumn DGv_name, DataGridViewColumn DGv_PH, DataGridViewColumn DGv_ADD, string data = null)
+		{
+			//product select in all requierd Filed opration
+			try
+			{
+				SqlCommand cmd;
+				if (data == null)
+				{
+					cmd = new SqlCommand("stp_selectcustomer", DB.con);
+				}
+				else
+				{
+					cmd = new SqlCommand("stp_searchProduct", DB.con);
+					cmd.Parameters.AddWithValue("@data", data);
+				}
+
+				cmd.CommandType = CommandType.StoredProcedure;
+				SqlDataAdapter da = new SqlDataAdapter(cmd);
+				DataTable dt = new DataTable();
+				da.Fill(dt);
+				DGv_Id.DataPropertyName = dt.Columns["ID"].ToString();
+				DGv_name.DataPropertyName = dt.Columns["CustomerName"].ToString();
+				DGv_PH.DataPropertyName = dt.Columns["Phone"].ToString();
+				DGv_ADD.DataPropertyName = dt.Columns["Address"].ToString();
+				gv.DataSource = dt;
+
+
+			}
+			catch (Exception)
+			{
+
+				throw;
+			}
+		}
+	}
 }

@@ -158,5 +158,29 @@ namespace ReturnMedicalSystem.Forms
         {
             WindowState = FormWindowState.Minimized;
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Customer cu = new Customer();
+            cu.Show();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            Suppllers sp = new Suppllers();
+            sp.Show();
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            Customer cs = new Customer();
+            cs.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Suppllers sp = new Suppllers();
+            sp.Show();
+        }
     }
 }

@@ -113,6 +113,12 @@
     <Compile Include="Forms\Bills.Designer.cs">
       <DependentUpon>Bills.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,12 @@
     <Compile Include="Forms\ProductsForm.Designer.cs">
       <DependentUpon>ProductsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Suppllers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Suppllers.Designer.cs">
+      <DependentUpon>Suppllers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +160,9 @@
     <EmbeddedResource Include="Forms\Bills.resx">
       <DependentUpon>Bills.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\CustomerForm.resx">
       <DependentUpon>CustomerForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ProductsForm.resx">
       <DependentUpon>ProductsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Suppllers.resx">
+      <DependentUpon>Suppllers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

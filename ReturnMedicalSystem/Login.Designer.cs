@@ -54,7 +54,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1200, 71);
+            this.panel1.Size = new System.Drawing.Size(750, 71);
             this.panel1.TabIndex = 0;
             // 
             // button2
@@ -68,7 +68,7 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(1127, 23);
+            this.button2.Location = new System.Drawing.Point(677, 23);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(43, 28);
             this.button2.TabIndex = 12;
@@ -81,7 +81,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(329, 23);
+            this.label1.Location = new System.Drawing.Point(132, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(463, 38);
             this.label1.TabIndex = 3;
@@ -107,7 +107,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(1163, 0);
+            this.button1.Location = new System.Drawing.Point(713, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(37, 71);
             this.button1.TabIndex = 1;
@@ -124,9 +124,9 @@
             this.panel2.Controls.Add(this.txtPassword);
             this.panel2.Controls.Add(this.txtUserName);
             this.panel2.ForeColor = System.Drawing.Color.Transparent;
-            this.panel2.Location = new System.Drawing.Point(360, 77);
+            this.panel2.Location = new System.Drawing.Point(191, 149);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(511, 570);
+            this.panel2.Size = new System.Drawing.Size(376, 251);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -135,7 +135,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(125, 174);
+            this.label3.Location = new System.Drawing.Point(96, 55);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(176, 22);
             this.label3.TabIndex = 5;
@@ -147,7 +147,7 @@
             this.BtnSeller.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnSeller.FlatAppearance.BorderSize = 2;
             this.BtnSeller.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSeller.Location = new System.Drawing.Point(228, 300);
+            this.BtnSeller.Location = new System.Drawing.Point(199, 181);
             this.BtnSeller.Name = "BtnSeller";
             this.BtnSeller.Size = new System.Drawing.Size(137, 46);
             this.BtnSeller.TabIndex = 3;
@@ -162,7 +162,7 @@
             this.Btn_Login.FlatAppearance.BorderSize = 2;
             this.Btn_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Login.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Login.Location = new System.Drawing.Point(74, 300);
+            this.Btn_Login.Location = new System.Drawing.Point(45, 181);
             this.Btn_Login.Name = "Btn_Login";
             this.Btn_Login.Size = new System.Drawing.Size(148, 44);
             this.Btn_Login.TabIndex = 2;
@@ -177,7 +177,7 @@
             this.txtPassword.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPassword.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtPassword.HideSelection = false;
-            this.txtPassword.Location = new System.Drawing.Point(74, 261);
+            this.txtPassword.Location = new System.Drawing.Point(45, 142);
             this.txtPassword.MaxLength = 30;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(291, 33);
@@ -193,7 +193,7 @@
             this.txtUserName.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txtUserName.HideSelection = false;
-            this.txtUserName.Location = new System.Drawing.Point(74, 222);
+            this.txtUserName.Location = new System.Drawing.Point(45, 103);
             this.txtUserName.MaxLength = 30;
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(291, 33);
@@ -205,7 +205,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1200, 720);
+            this.ClientSize = new System.Drawing.Size(750, 481);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -213,7 +213,6 @@
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

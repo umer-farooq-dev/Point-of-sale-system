@@ -133,7 +133,7 @@ namespace ReturnMedicalSystem.Forms
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(107, 4);
+            this.label2.Location = new System.Drawing.Point(314, 4);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 22);
             this.label2.TabIndex = 4;
@@ -146,9 +146,9 @@ namespace ReturnMedicalSystem.Forms
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(2, 1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 25);
+            this.label1.Size = new System.Drawing.Size(307, 25);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Zam Zam";
+            this.label1.Text = "Personalized Sailing Juncture";
             // 
             // label11
             // 
@@ -174,8 +174,10 @@ namespace ReturnMedicalSystem.Forms
             // 
             this.txt_searchBill.RootElement.BorderHighlightColor = System.Drawing.Color.Gray;
             this.txt_searchBill.RootElement.BorderHighlightThickness = 22;
+            this.txt_searchBill.RootElement.ControlBounds = new System.Drawing.Rectangle(0, 0, 100, 20);
             this.txt_searchBill.RootElement.EnableFocusBorder = true;
             this.txt_searchBill.RootElement.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(37)))), ((int)(((byte)(36)))));
+            this.txt_searchBill.RootElement.StretchVertically = true;
             this.txt_searchBill.Size = new System.Drawing.Size(704, 40);
             this.txt_searchBill.TabIndex = 9;
             this.txt_searchBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -497,8 +499,10 @@ namespace ReturnMedicalSystem.Forms
             // 
             this.txt_barcodeScan.RootElement.BorderHighlightColor = System.Drawing.Color.Gray;
             this.txt_barcodeScan.RootElement.BorderHighlightThickness = 22;
+            this.txt_barcodeScan.RootElement.ControlBounds = new System.Drawing.Rectangle(0, 0, 100, 20);
             this.txt_barcodeScan.RootElement.EnableFocusBorder = true;
             this.txt_barcodeScan.RootElement.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(37)))), ((int)(((byte)(36)))));
+            this.txt_barcodeScan.RootElement.StretchVertically = true;
             this.txt_barcodeScan.Size = new System.Drawing.Size(359, 40);
             this.txt_barcodeScan.TabIndex = 29;
             this.txt_barcodeScan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

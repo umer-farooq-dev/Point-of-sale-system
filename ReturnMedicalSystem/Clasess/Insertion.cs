@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace ReturnMedicalSystem.Clasess
 {
-    class Insertion
+    public class Insertion
     {
         //DB sp = new DB();
       
@@ -53,6 +53,71 @@ namespace ReturnMedicalSystem.Clasess
             }
                 
         }
+
+
+
+
+        public void insertsupplier(string name, string phone, string address, string remarks)
+        {
+           
+            try
+            {
+                //product insert opration
+
+                SqlCommand cmd = new SqlCommand("stp_supplier", DB.con);
+
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@name", name);
+                cmd.Parameters.AddWithValue("@phone", phone);
+                cmd.Parameters.AddWithValue("@address", address);
+                cmd.Parameters.AddWithValue("@remarks", remarks);
+                DB.con.Open();
+                cmd.ExecuteNonQuery();
+                DB.con.Close();
+                MessageBox.Show("Data Save Successfully", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+            finally
+            {
+                DB.con.Close();
+            }
+
+        }
+
+
+
+        public void insertcustomer(string name, string phone, string address)
+        {
+
+            try
+            {
+                //product insert opration
+
+                SqlCommand cmd = new SqlCommand("stp_customer", DB.con);
+
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@cname", name);
+                cmd.Parameters.AddWithValue("@cphone", phone);
+                cmd.Parameters.AddWithValue("@caddress", address);
+                DB.con.Open();
+                cmd.ExecuteNonQuery();
+                DB.con.Close();
+                MessageBox.Show("Data Save Successfully", "Save", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+            finally
+            {
+                DB.con.Close();
+            }
+
+        }
+
     }
 }
 
