@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Product));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -37,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.categoryBox = new System.Windows.Forms.ComboBox();
             this.lbl_errorLocation = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.text_Location = new System.Windows.Forms.TextBox();
@@ -71,9 +72,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txt_search = new Telerik.WinControls.UI.RadTextBox();
             this.DataGridView_Product = new System.Windows.Forms.DataGridView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_View = new System.Windows.Forms.Button();
-            this.categoryBox = new System.Windows.Forms.ComboBox();
             this.DGv_Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_PIN = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -84,6 +82,8 @@
             this.DGv_category = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_Barcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_View = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txt_search)).BeginInit();
@@ -217,6 +217,22 @@
             this.panel2.Size = new System.Drawing.Size(313, 733);
             this.panel2.TabIndex = 2;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // categoryBox
+            // 
+            this.categoryBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.categoryBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.categoryBox.FormattingEnabled = true;
+            this.categoryBox.Items.AddRange(new object[] {
+            "Clothes",
+            "Shoes",
+            "Watches",
+            "Beds",
+            "Jewelry"});
+            this.categoryBox.Location = new System.Drawing.Point(11, 470);
+            this.categoryBox.Name = "categoryBox";
+            this.categoryBox.Size = new System.Drawing.Size(283, 32);
+            this.categoryBox.TabIndex = 34;
             // 
             // lbl_errorLocation
             // 
@@ -612,7 +628,7 @@
             // 
             this.txt_search.RootElement.BorderHighlightColor = System.Drawing.Color.Gray;
             this.txt_search.RootElement.BorderHighlightThickness = 22;
-            this.txt_search.RootElement.ControlBounds = new System.Drawing.Rectangle(0, 0, 100, 20);
+            this.txt_search.RootElement.ControlBounds = new System.Drawing.Rectangle(923, 85, 100, 20);
             this.txt_search.RootElement.EnableFocusBorder = true;
             this.txt_search.RootElement.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(37)))), ((int)(((byte)(36)))));
             this.txt_search.RootElement.StretchVertically = true;
@@ -642,14 +658,14 @@
             this.DGv_Barcode,
             this.DGv_location});
             this.DataGridView_Product.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(65)))), ((int)(((byte)(117)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DataGridView_Product.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(65)))), ((int)(((byte)(117)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridView_Product.DefaultCellStyle = dataGridViewCellStyle2;
             this.DataGridView_Product.Location = new System.Drawing.Point(316, 127);
             this.DataGridView_Product.Name = "DataGridView_Product";
             this.DataGridView_Product.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
@@ -657,50 +673,6 @@
             this.DataGridView_Product.TabIndex = 8;
             this.DataGridView_Product.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_Product_CellClick_1);
             this.DataGridView_Product.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_Product_CellContentClick_1);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(903, 70);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(285, 51);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btn_View
-            // 
-            this.btn_View.BackColor = System.Drawing.Color.Transparent;
-            this.btn_View.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_View.BackgroundImage")));
-            this.btn_View.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_View.FlatAppearance.BorderSize = 0;
-            this.btn_View.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_View.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_View.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_View.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_View.Location = new System.Drawing.Point(319, 86);
-            this.btn_View.Name = "btn_View";
-            this.btn_View.Size = new System.Drawing.Size(47, 37);
-            this.btn_View.TabIndex = 18;
-            this.btn_View.UseVisualStyleBackColor = false;
-            this.btn_View.Click += new System.EventHandler(this.btn_View_Click);
-            // 
-            // categoryBox
-            // 
-            this.categoryBox.BackColor = System.Drawing.Color.Gainsboro;
-            this.categoryBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.categoryBox.FormattingEnabled = true;
-            this.categoryBox.Items.AddRange(new object[] {
-            "Clothes",
-            "Shoes",
-            "Watches",
-            "Beds",
-            "Jewelry"});
-            this.categoryBox.Location = new System.Drawing.Point(11, 470);
-            this.categoryBox.Name = "categoryBox";
-            this.categoryBox.Size = new System.Drawing.Size(283, 32);
-            this.categoryBox.TabIndex = 34;
             // 
             // DGv_Id
             // 
@@ -762,10 +734,39 @@
             this.DGv_location.HeaderText = "LOCATION";
             this.DGv_location.Name = "DGv_location";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(903, 70);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(285, 51);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btn_View
+            // 
+            this.btn_View.BackColor = System.Drawing.Color.Transparent;
+            this.btn_View.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_View.BackgroundImage")));
+            this.btn_View.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_View.FlatAppearance.BorderSize = 0;
+            this.btn_View.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_View.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_View.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_View.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_View.Location = new System.Drawing.Point(319, 86);
+            this.btn_View.Name = "btn_View";
+            this.btn_View.Size = new System.Drawing.Size(47, 37);
+            this.btn_View.TabIndex = 18;
+            this.btn_View.UseVisualStyleBackColor = false;
+            this.btn_View.Click += new System.EventHandler(this.btn_View_Click);
+            // 
             // Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(1200, 788);
@@ -779,7 +780,6 @@
             this.Name = "Product";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Product";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Product_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

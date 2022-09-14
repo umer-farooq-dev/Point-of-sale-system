@@ -29,11 +29,12 @@ namespace ReturnMedicalSystem.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Suppllers));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_supN = new System.Windows.Forms.Label();
             this.txt_supN = new System.Windows.Forms.TextBox();
             this.txt_supP = new System.Windows.Forms.TextBox();
@@ -51,14 +52,14 @@ namespace ReturnMedicalSystem.Forms
             this.btn_supdel = new System.Windows.Forms.Button();
             this.btn_supUpdate = new System.Windows.Forms.Button();
             this.DataGridView_Supplier = new System.Windows.Forms.DataGridView();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btn_View = new System.Windows.Forms.Button();
             this.DGv_Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_PH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_ADD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_RE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button5 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_View = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Supplier)).BeginInit();
@@ -76,16 +77,25 @@ namespace ReturnMedicalSystem.Forms
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(957, 61);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // pictureBox1
+            // button5
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(61, 55);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(906, 3);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(48, 28);
+            this.button5.TabIndex = 9;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label1
             // 
@@ -96,6 +106,16 @@ namespace ReturnMedicalSystem.Forms
             this.label1.Size = new System.Drawing.Size(184, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "ADD SUPPLIER";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(61, 55);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // lbl_supN
             // 
@@ -281,48 +301,20 @@ namespace ReturnMedicalSystem.Forms
             this.DGv_ADD,
             this.DGv_RE});
             this.DataGridView_Supplier.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(65)))), ((int)(((byte)(117)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DataGridView_Supplier.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(65)))), ((int)(((byte)(117)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridView_Supplier.DefaultCellStyle = dataGridViewCellStyle3;
             this.DataGridView_Supplier.Location = new System.Drawing.Point(254, 146);
             this.DataGridView_Supplier.Name = "DataGridView_Supplier";
             this.DataGridView_Supplier.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.DataGridView_Supplier.Size = new System.Drawing.Size(691, 482);
             this.DataGridView_Supplier.TabIndex = 25;
             this.DataGridView_Supplier.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_Supplier_CellClick);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(660, 89);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(285, 51);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 26;
-            this.pictureBox2.TabStop = false;
-            // 
-            // btn_View
-            // 
-            this.btn_View.BackColor = System.Drawing.Color.Transparent;
-            this.btn_View.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_View.BackgroundImage")));
-            this.btn_View.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_View.FlatAppearance.BorderSize = 0;
-            this.btn_View.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_View.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_View.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_View.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_View.Location = new System.Drawing.Point(254, 77);
-            this.btn_View.Name = "btn_View";
-            this.btn_View.Size = new System.Drawing.Size(68, 58);
-            this.btn_View.TabIndex = 27;
-            this.btn_View.UseVisualStyleBackColor = false;
-            this.btn_View.Click += new System.EventHandler(this.btn_View_Click);
             // 
             // DGv_Id
             // 
@@ -355,29 +347,50 @@ namespace ReturnMedicalSystem.Forms
             this.DGv_RE.Name = "DGv_RE";
             this.DGv_RE.ReadOnly = true;
             // 
-            // button5
+            // pictureBox2
             // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(906, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(48, 28);
-            this.button5.TabIndex = 9;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(660, 89);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(285, 51);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 26;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btn_View
+            // 
+            this.btn_View.BackColor = System.Drawing.Color.Transparent;
+            this.btn_View.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_View.BackgroundImage")));
+            this.btn_View.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_View.FlatAppearance.BorderSize = 0;
+            this.btn_View.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_View.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_View.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_View.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_View.Location = new System.Drawing.Point(254, 77);
+            this.btn_View.Name = "btn_View";
+            this.btn_View.Size = new System.Drawing.Size(68, 58);
+            this.btn_View.TabIndex = 27;
+            this.btn_View.UseVisualStyleBackColor = false;
+            this.btn_View.Click += new System.EventHandler(this.btn_View_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(677, 103);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(205, 29);
+            this.textBox1.TabIndex = 28;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Suppllers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(957, 640);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_View);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.DataGridView_Supplier);
@@ -443,5 +456,6 @@ namespace ReturnMedicalSystem.Forms
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_ADD;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_RE;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

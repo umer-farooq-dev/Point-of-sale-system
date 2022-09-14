@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductsForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.txt_searchProduct = new Telerik.WinControls.UI.RadTextBox();
@@ -49,7 +49,7 @@
             this.DGv_PIN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_POUT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_DS = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DGv_Expire = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DGv_Category = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_Barcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Btn_EmptyProduct = new System.Windows.Forms.Button();
@@ -104,8 +104,10 @@
             // 
             this.txt_searchProduct.RootElement.BorderHighlightColor = System.Drawing.Color.Gray;
             this.txt_searchProduct.RootElement.BorderHighlightThickness = 22;
+            this.txt_searchProduct.RootElement.ControlBounds = new System.Drawing.Rectangle(822, 21, 100, 20);
             this.txt_searchProduct.RootElement.EnableFocusBorder = true;
             this.txt_searchProduct.RootElement.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(37)))), ((int)(((byte)(36)))));
+            this.txt_searchProduct.RootElement.StretchVertically = true;
             this.txt_searchProduct.Size = new System.Drawing.Size(255, 40);
             this.txt_searchProduct.TabIndex = 9;
             this.txt_searchProduct.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -148,7 +150,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(127, 18);
+            this.label2.Location = new System.Drawing.Point(230, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(103, 22);
             this.label2.TabIndex = 4;
@@ -162,9 +164,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(22, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 25);
+            this.label1.Size = new System.Drawing.Size(307, 25);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Zam Zam";
+            this.label1.Text = "Personalized Sailing Juncture";
             // 
             // DataGridView_Product
             // 
@@ -174,14 +176,14 @@
             this.DataGridView_Product.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DataGridView_Product.BackgroundColor = System.Drawing.Color.WhiteSmoke;
             this.DataGridView_Product.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_Product.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_Product.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.DataGridView_Product.ColumnHeadersHeight = 25;
             this.DataGridView_Product.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.DGv_Id,
@@ -191,31 +193,31 @@
             this.DGv_PIN,
             this.DGv_POUT,
             this.DGv_DS,
-            this.DGv_Expire,
+            this.DGv_Category,
             this.DGv_Barcode,
             this.DGv_location});
             this.DataGridView_Product.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DataGridView_Product.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridView_Product.DefaultCellStyle = dataGridViewCellStyle2;
             this.DataGridView_Product.Location = new System.Drawing.Point(0, 108);
             this.DataGridView_Product.Name = "DataGridView_Product";
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridView_Product.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_Product.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.DataGridView_Product.RowHeadersVisible = false;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.DataGridView_Product.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.DataGridView_Product.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.DataGridView_Product.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DataGridView_Product.Size = new System.Drawing.Size(1184, 517);
             this.DataGridView_Product.TabIndex = 11;
@@ -258,10 +260,10 @@
             this.DGv_DS.HeaderText = "DS";
             this.DGv_DS.Name = "DGv_DS";
             // 
-            // DGv_Expire
+            // DGv_Category
             // 
-            this.DGv_Expire.HeaderText = "Expire";
-            this.DGv_Expire.Name = "DGv_Expire";
+            this.DGv_Category.HeaderText = "Category";
+            this.DGv_Category.Name = "DGv_Category";
             // 
             // DGv_Barcode
             // 
@@ -292,6 +294,7 @@
             // 
             this.Btn_ExpireProduct.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.Btn_ExpireProduct.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.Btn_ExpireProduct.Enabled = false;
             this.Btn_ExpireProduct.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Btn_ExpireProduct.FlatAppearance.BorderSize = 2;
             this.Btn_ExpireProduct.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -326,9 +329,9 @@
             this.lbl_Marquee.ForeColor = System.Drawing.Color.White;
             this.lbl_Marquee.Location = new System.Drawing.Point(462, 75);
             this.lbl_Marquee.Name = "lbl_Marquee";
-            this.lbl_Marquee.Size = new System.Drawing.Size(228, 25);
+            this.lbl_Marquee.Size = new System.Drawing.Size(307, 25);
             this.lbl_Marquee.TabIndex = 11;
-            this.lbl_Marquee.Text = "Zam Zam Super Store";
+            this.lbl_Marquee.Text = "Personalized Sailing Juncture";
             // 
             // timer1
             // 
@@ -373,6 +376,8 @@
         private System.Windows.Forms.Button Btn_EmptyProduct;
         private System.Windows.Forms.Button Btn_ExpireProduct;
         private System.Windows.Forms.Button btn_RequiredProduct;
+        private System.Windows.Forms.Label lbl_Marquee;
+        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_name;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_Batch;
@@ -380,10 +385,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_PIN;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_POUT;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_DS;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DGv_Expire;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DGv_Category;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_Barcode;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_location;
-        private System.Windows.Forms.Label lbl_Marquee;
-        private System.Windows.Forms.Timer timer1;
     }
 }

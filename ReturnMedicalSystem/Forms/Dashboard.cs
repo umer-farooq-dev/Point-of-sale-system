@@ -182,5 +182,11 @@ namespace ReturnMedicalSystem.Forms
             Suppllers sp = new Suppllers();
             sp.Show();
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Customer cs = new Customer();
+            cs.Show();
+        }
     }
 }

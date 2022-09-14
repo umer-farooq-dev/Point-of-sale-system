@@ -35,7 +35,7 @@ namespace ReturnMedicalSystem.Forms
             DB.con.Open();
             SqlCommand cmd = DB.con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from tble_Product where P_Date<GETDATE();";
+            cmd.CommandText = "select * from Product where P_Date<GETDATE();";
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -52,7 +52,7 @@ namespace ReturnMedicalSystem.Forms
         private void ProductsForm_Load(object sender, EventArgs e)
         {
 
-            s.showproduct(DataGridView_Product, DGv_Id, DGv_name,DGv_Batch,DGv_DS, DGv_QTY, DGv_PIN, DGv_POUT, DGv_Expire, DGv_Barcode,DGv_location);
+            s.showproduct(DataGridView_Product, DGv_Id, DGv_name,DGv_Batch,DGv_DS, DGv_QTY, DGv_PIN, DGv_POUT, DGv_Category, DGv_Barcode,DGv_location);
             timer1.Start();
         }
 
@@ -60,11 +60,11 @@ namespace ReturnMedicalSystem.Forms
         {
             if (txt_searchProduct.Text != "")
             {
-                s.showproduct(DataGridView_Product, DGv_Id, DGv_name,DGv_Batch, DGv_DS, DGv_QTY, DGv_PIN, DGv_POUT, DGv_Expire, DGv_Barcode,DGv_location, txt_searchProduct.Text);
+                s.showproduct(DataGridView_Product, DGv_Id, DGv_name,DGv_Batch, DGv_DS, DGv_QTY, DGv_PIN, DGv_POUT, DGv_Category, DGv_Barcode,DGv_location, txt_searchProduct.Text);
             }
             else
             {
-                s.showproduct(DataGridView_Product, DGv_Id, DGv_name,DGv_Batch, DGv_DS, DGv_QTY, DGv_PIN, DGv_POUT, DGv_Expire, DGv_Barcode,DGv_location);
+                s.showproduct(DataGridView_Product, DGv_Id, DGv_name,DGv_Batch, DGv_DS, DGv_QTY, DGv_PIN, DGv_POUT, DGv_Category, DGv_Barcode,DGv_location);
             }
         }
 
@@ -73,7 +73,7 @@ namespace ReturnMedicalSystem.Forms
             DB.con.Open();
             SqlCommand cmd = DB.con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from tble_Product where P_Quantity=0";
+            cmd.CommandText = "select * from Product where Quantity=0";
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -92,7 +92,7 @@ namespace ReturnMedicalSystem.Forms
             DB.con.Open();
             SqlCommand cmd = DB.con.CreateCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from tble_Product where P_Quantity <10";
+            cmd.CommandText = "select * from Product where Quantity <10";
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);

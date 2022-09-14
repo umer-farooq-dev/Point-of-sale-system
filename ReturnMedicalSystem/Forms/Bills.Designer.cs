@@ -174,7 +174,7 @@ namespace ReturnMedicalSystem.Forms
             // 
             this.txt_searchBill.RootElement.BorderHighlightColor = System.Drawing.Color.Gray;
             this.txt_searchBill.RootElement.BorderHighlightThickness = 22;
-            this.txt_searchBill.RootElement.ControlBounds = new System.Drawing.Rectangle(0, 0, 100, 20);
+            this.txt_searchBill.RootElement.ControlBounds = new System.Drawing.Rectangle(87, 60, 100, 20);
             this.txt_searchBill.RootElement.EnableFocusBorder = true;
             this.txt_searchBill.RootElement.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(37)))), ((int)(((byte)(36)))));
             this.txt_searchBill.RootElement.StretchVertically = true;
@@ -499,7 +499,7 @@ namespace ReturnMedicalSystem.Forms
             // 
             this.txt_barcodeScan.RootElement.BorderHighlightColor = System.Drawing.Color.Gray;
             this.txt_barcodeScan.RootElement.BorderHighlightThickness = 22;
-            this.txt_barcodeScan.RootElement.ControlBounds = new System.Drawing.Rectangle(0, 0, 100, 20);
+            this.txt_barcodeScan.RootElement.ControlBounds = new System.Drawing.Rectangle(797, 62, 100, 20);
             this.txt_barcodeScan.RootElement.EnableFocusBorder = true;
             this.txt_barcodeScan.RootElement.FocusBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(37)))), ((int)(((byte)(36)))));
             this.txt_barcodeScan.RootElement.StretchVertically = true;
@@ -569,7 +569,6 @@ namespace ReturnMedicalSystem.Forms
             this.Name = "Bills";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bills";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Bills_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

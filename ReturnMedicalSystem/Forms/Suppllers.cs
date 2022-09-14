@@ -128,5 +128,22 @@ namespace ReturnMedicalSystem.Forms
             ds.Show();
             this.Close();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "")
+            {
+                s.showSupplier(DataGridView_Supplier, DGv_Id, DGv_name, DGv_PH, DGv_ADD, DGv_RE, textBox1.Text);
+            }
+            else
+            {
+                s.showSupplier(DataGridView_Supplier, DGv_Id, DGv_name, DGv_PH, DGv_ADD, DGv_RE);
+            }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
