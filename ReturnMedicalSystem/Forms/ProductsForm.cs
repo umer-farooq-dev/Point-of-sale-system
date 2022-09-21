@@ -32,16 +32,7 @@ namespace ReturnMedicalSystem.Forms
         private void Btn_Login_Click(object sender, EventArgs e)
         {
 
-            DB.con.Open();
-            SqlCommand cmd = DB.con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select * from Product where P_Date<GETDATE();";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-            DataGridView_Product.DataSource = dt;
-            DB.con.Close();
+          
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

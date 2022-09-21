@@ -55,6 +55,7 @@ namespace ReturnMedicalSystem.Forms
             this.DGv_ADD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btn_View = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Customer)).BeginInit();
@@ -331,6 +332,16 @@ namespace ReturnMedicalSystem.Forms
             this.btn_View.UseVisualStyleBackColor = false;
             this.btn_View.Click += new System.EventHandler(this.btn_View_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(677, 103);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(205, 29);
+            this.textBox1.TabIndex = 44;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // Customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -353,6 +364,7 @@ namespace ReturnMedicalSystem.Forms
             this.Controls.Add(this.txt_cusN);
             this.Controls.Add(this.lbl_cusN);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Customer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -393,5 +405,6 @@ namespace ReturnMedicalSystem.Forms
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_PH;
         private System.Windows.Forms.DataGridViewTextBoxColumn DGv_ADD;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

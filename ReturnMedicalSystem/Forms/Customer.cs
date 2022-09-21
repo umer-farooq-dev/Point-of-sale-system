@@ -107,5 +107,17 @@ namespace ReturnMedicalSystem.Forms
             ds.Show();
             this.Close();
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "")
+            {
+                s.showCustomer(DataGridView_Customer, DGv_Id, DGv_name, DGv_PH, DGv_ADD, textBox1.Text);
+            }
+            else
+            {
+                s.showCustomer(DataGridView_Customer, DGv_Id, DGv_name, DGv_PH, DGv_ADD);
+            }
+        }
     }
 }

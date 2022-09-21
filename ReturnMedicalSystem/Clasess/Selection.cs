@@ -64,7 +64,7 @@ namespace ReturnMedicalSystem.Clasess
 				}
 				else
 				{
-					cmd = new SqlCommand("stp_searchProduct", DB.con);
+					cmd = new SqlCommand("stp_searchSupplier", DB.con);
 					cmd.Parameters.AddWithValue("@data", data);
 				}
 
@@ -101,7 +101,7 @@ namespace ReturnMedicalSystem.Clasess
 				}
 				else
 				{
-					cmd = new SqlCommand("stp_searchProduct", DB.con);
+					cmd = new SqlCommand("stp_searchCustomer", DB.con);
 					cmd.Parameters.AddWithValue("@data", data);
 				}
 

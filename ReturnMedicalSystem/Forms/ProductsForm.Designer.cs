@@ -53,7 +53,6 @@
             this.DGv_Barcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DGv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Btn_EmptyProduct = new System.Windows.Forms.Button();
-            this.Btn_ExpireProduct = new System.Windows.Forms.Button();
             this.btn_RequiredProduct = new System.Windows.Forms.Button();
             this.lbl_Marquee = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -290,22 +289,6 @@
             this.Btn_EmptyProduct.UseVisualStyleBackColor = false;
             this.Btn_EmptyProduct.Click += new System.EventHandler(this.Btn_EmptyProduct_Click);
             // 
-            // Btn_ExpireProduct
-            // 
-            this.Btn_ExpireProduct.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.Btn_ExpireProduct.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.Btn_ExpireProduct.Enabled = false;
-            this.Btn_ExpireProduct.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.Btn_ExpireProduct.FlatAppearance.BorderSize = 2;
-            this.Btn_ExpireProduct.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ExpireProduct.Location = new System.Drawing.Point(362, 631);
-            this.Btn_ExpireProduct.Name = "Btn_ExpireProduct";
-            this.Btn_ExpireProduct.Size = new System.Drawing.Size(159, 46);
-            this.Btn_ExpireProduct.TabIndex = 12;
-            this.Btn_ExpireProduct.Text = "Expire Product";
-            this.Btn_ExpireProduct.UseVisualStyleBackColor = false;
-            this.Btn_ExpireProduct.Click += new System.EventHandler(this.Btn_Login_Click);
-            // 
             // btn_RequiredProduct
             // 
             this.btn_RequiredProduct.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -345,7 +328,6 @@
             this.Controls.Add(this.lbl_Marquee);
             this.Controls.Add(this.btn_RequiredProduct);
             this.Controls.Add(this.Btn_EmptyProduct);
-            this.Controls.Add(this.Btn_ExpireProduct);
             this.Controls.Add(this.DataGridView_Product);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -374,7 +356,6 @@
         private Telerik.WinControls.UI.RadTextBox txt_searchProduct;
         private System.Windows.Forms.DataGridView DataGridView_Product;
         private System.Windows.Forms.Button Btn_EmptyProduct;
-        private System.Windows.Forms.Button Btn_ExpireProduct;
         private System.Windows.Forms.Button btn_RequiredProduct;
         private System.Windows.Forms.Label lbl_Marquee;
         private System.Windows.Forms.Timer timer1;
